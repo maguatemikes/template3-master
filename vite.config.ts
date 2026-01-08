@@ -16,5 +16,4 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "./", // ← ADD THIS for GitHub Pages relative paths
 });
