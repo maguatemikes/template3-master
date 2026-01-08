@@ -1,0 +1,243 @@
+{
+  "site": {
+    "name": "BandanaNearMe",
+    "domain": "bandananearme.com",
+    "tagline": "Your trusted source for finding quality bandanas at local stores near you",
+    "year": "2025"
+  },
+  "header": {
+    "logo": {
+      "text": "BandanaNearMe",
+      "icon": "B"
+    },
+    "navigation": [
+      { "label": "Styles", "sectionId": "styles" },
+      { "label": "Why Choose Us", "sectionId": "benefits" },
+      { "label": "Locations", "sectionId": "locations" }
+    ],
+    "cta": {
+      "text": "Find Store",
+      "icon": "MapPin"
+    }
+  },
+  "hero": {
+    "badge": {
+      "icon": "MapPin",
+      "text": "Local Bandana Selection Near You"
+    },
+    "heading": "Find Premium Bandanas",
+    "subheading": "In Your Area",
+    "description": "Discover the perfect bandana for any occasion. From classic prints to modern designs, find quality bandanas at stores near you today.",
+    "primaryCta": {
+      "text": "Browse Locations",
+      "sectionId": "locations"
+    },
+    "secondaryCta": {
+      "text": "View Styles",
+      "sectionId": "styles"
+    },
+    "stats": [
+      {
+        "value": "500+",
+        "label": "Store Locations"
+      },
+      {
+        "value": "1000+",
+        "label": "Unique Styles"
+      },
+      {
+        "value": "50K+",
+        "label": "Happy Customers"
+      }
+    ],
+    "heroImage": {
+      "src": "https://images.unsplash.com/photo-1761051011436-5e815ca4ec2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYW5kYW5hJTIwZmFzaGlvbiUyMGFjY2Vzc29yeXxlbnwxfHx8fDE3NjcxMzI5MTh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      "alt": "Premium bandana collection"
+    }
+  },
+  "painPoints": {
+    "heading": "Your Bandana Search, Simplified",
+    "description": "We understand the frustration of finding the perfect bandana. Here's how we solve your biggest challenges.",
+    "points": [
+      {
+        "icon": "MapPinOff",
+        "problem": "Can't Find Local Stores",
+        "solution": "We show you exactly where to buy bandanas nearby with real-time inventory and directions to your closest stores."
+      },
+      {
+        "icon": "Clock",
+        "problem": "Wasting Time Searching",
+        "solution": "Stop driving store to store. Find multiple locations instantly with our comprehensive store locator and availability checker."
+      },
+      {
+        "icon": "Package",
+        "problem": "Limited Style Selection",
+        "solution": "Access hundreds of bandana styles from classic paisley to modern prints. See what's in stock before you visit."
+      },
+      {
+        "icon": "ShoppingBag",
+        "problem": "Unsure of Quality",
+        "solution": "We partner only with trusted retailers. Get verified quality bandanas from authentic brands you can rely on."
+      }
+    ]
+  },
+  "styles": {
+    "heading": "Explore Our Collection",
+    "description": "From everyday essentials to statement pieces, find the perfect bandana style for any occasion.",
+    "collection": [
+      {
+        "name": "Classic Paisley",
+        "description": "Timeless patterns that never go out of style",
+        "image": "https://images.unsplash.com/photo-1591116574906-bb6f9dd3700a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYW5kYW5hJTIwcGF0dGVybiUyMGRlc2lnbnxlbnwxfHx8fDE3NjcxMzI5MTl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        "available": "450+ stores"
+      },
+      {
+        "name": "Modern Prints",
+        "description": "Contemporary designs for today's fashion",
+        "image": "https://images.unsplash.com/photo-1659619132788-2325bd7f87e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2xvcmZ1bCUyMGJhbmRhbmFzJTIwY29sbGVjdGlvbnxlbnwxfHx8fDE3NjcxMzI5MTl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        "available": "380+ stores"
+      },
+      {
+        "name": "Premium Silk",
+        "description": "Luxury bandanas for special occasions",
+        "image": "https://images.unsplash.com/photo-1758900728131-32b8fa6fcda4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHlsaXNoJTIwcGVyc29uJTIwYmFuZGFuYXxlbnwxfHx8fDE3NjcxMzI5MTl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        "available": "200+ stores"
+      }
+    ]
+  },
+  "benefits": {
+    "heading": "Why Choose BandanaNearMe",
+    "description": "The fastest, most reliable way to find and buy bandanas in your local area.",
+    "benefits": [
+      {
+        "icon": "MapPin",
+        "title": "Local Convenience",
+        "description": "Find bandanas at stores within minutes of your location. No shipping wait times."
+      },
+      {
+        "icon": "Zap",
+        "title": "Instant Availability",
+        "description": "Real-time inventory updates show you exactly what's in stock right now."
+      },
+      {
+        "icon": "Shield",
+        "title": "Quality Guaranteed",
+        "description": "All partner stores verified for authentic products and customer service."
+      },
+      {
+        "icon": "Award",
+        "title": "Best Selection",
+        "description": "Access to hundreds of styles from multiple trusted retailers in one search."
+      }
+    ]
+  },
+  "location": {
+    "heading": "Visit Our Store Location",
+    "description": "Find premium bandanas at our partner store. Check hours and get directions.",
+    "store": {
+      "name": "Wholesale For Everyone",
+      "address": "2402 Sylon Blvd, Hainesport, NJ 08036, United States",
+      "hours": "Opens 9 AM Wednesday",
+      "status": "Closed",
+      "website": "wholesaleforeveryone.com",
+      "plusCode": "X5H2+M2 Hainesport, New Jersey, USA",
+      "phone": "(609) 267-8000"
+    },
+    "whatToExpect": [
+      "Wide selection of bandana styles and colors",
+      "Quality guaranteed authentic products",
+      "Friendly and knowledgeable staff",
+      "Competitive wholesale pricing"
+    ],
+    "cta": {
+      "heading": "Can't Visit In Person?",
+      "description": "Browse our online catalog or call to check availability before you visit.",
+      "buttons": [
+        {
+          "text": "Call Store",
+          "action": "tel:(609) 267-8000"
+        },
+        {
+          "text": "View Online Catalog",
+          "action": "https://wholesaleforeveryone.com"
+        }
+      ]
+    }
+  },
+  "testimonials": {
+    "heading": "What Customers Say",
+    "description": "Join thousands of satisfied customers who found their perfect bandana.",
+    "reviews": [
+      {
+        "name": "Sarah Johnson",
+        "location": "Austin, TX",
+        "rating": 5,
+        "text": "Found exactly what I needed in 5 minutes! The store locator showed me 3 places nearby with the bandana style I wanted. Saved me so much time."
+      },
+      {
+        "name": "Mike Chen",
+        "location": "Portland, OR",
+        "rating": 5,
+        "text": "As someone who wears bandanas daily for work, this site is a game-changer. I can check inventory before driving anywhere."
+      },
+      {
+        "name": "Emma Rodriguez",
+        "location": "Denver, CO",
+        "rating": 5,
+        "text": "Great selection and the quality guarantee means I know I'm getting authentic products. Won't shop for bandanas any other way now."
+      }
+    ]
+  },
+  "ctaSection": {
+    "heading": "Ready to Find Your Perfect Bandana?",
+    "description": "Enter your location to discover nearby stores with the best bandana selection. Get instant results and directions.",
+    "searchPlaceholder": "Enter your zip code or city",
+    "searchButton": "Search",
+    "subtext": "Join 50,000+ customers finding bandanas near them",
+    "secondaryCta": {
+      "text": "Browse All Styles",
+      "sectionId": "styles"
+    }
+  },
+  "footer": {
+    "logo": {
+      "text": "BandanaNearMe",
+      "icon": "B"
+    },
+    "tagline": "Your trusted source for finding quality bandanas at local stores near you.",
+    "sections": [
+      {
+        "heading": "Shop",
+        "links": [
+          { "text": "Find Stores", "sectionId": "locations" },
+          { "text": "All Styles", "sectionId": "styles" },
+          { "text": "New Arrivals", "sectionId": "styles" },
+          { "text": "Best Sellers", "sectionId": "styles" }
+        ]
+      },
+      {
+        "heading": "Company",
+        "links": [
+          { "text": "About Us", "sectionId": "benefits" },
+          { "text": "Partner Stores", "sectionId": "locations" },
+          { "text": "Contact", "url": "mailto:hello@bandananearme.com" },
+          { "text": "FAQ", "sectionId": "benefits" }
+        ]
+      },
+      {
+        "heading": "Connect",
+        "socialMedia": [
+          { "platform": "Facebook", "url": "https://facebook.com" },
+          { "platform": "Instagram", "url": "https://instagram.com" },
+          { "platform": "Twitter", "url": "https://twitter.com" }
+        ],
+        "email": "hello@bandananearme.com"
+      }
+    ],
+    "copyright": "© 2025 BandanaNearMe. All rights reserved.",
+    "legal": [
+      { "text": "Privacy Policy", "url": "#" },
+      { "text": "Terms of Service", "url": "#" }
+    ]
+  }
+}

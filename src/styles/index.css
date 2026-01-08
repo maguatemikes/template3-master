@@ -1,0 +1,15 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* ShopRocket isolation - prevent our styles from affecting it */
+#shoprocket-container * {
+  all: revert;
+  box-sizing: border-box;
+}
+
+#shoprocket-container {
+  all: initial;
+  display: block;
+  width: 100%;
+}
