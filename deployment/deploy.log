@@ -1,0 +1,2396 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260102214300
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260102T192036\window3\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20844-502887.json' -FeatureFlags @() 
+Process ID: 7016
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Attempting to load configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'bandananearme.com'
+Set DNS_METHOD to 'manual'
+INFO: Validating AWS configuration...
+SUCCESS: AWS configuration is valid.
+Set S3_BUCKET to 'bandananearme.com'
+Validating bucket name: 'bandananearme.com'
+**********************
+Windows PowerShell transcript end
+End time: 20260102214308
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260102214730
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260102T192036\window3\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20844-502887.json' -FeatureFlags @() 
+Process ID: 7016
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Attempting to load configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'bandananearme.com'
+Set DNS_METHOD to 'manual'
+INFO: Validating AWS configuration...
+SUCCESS: AWS configuration is valid.
+Set S3_BUCKET to 'bandananearme.com'
+Validating bucket name: 'bandananearme.com'
+**********************
+Windows PowerShell transcript end
+End time: 20260102214737
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260102215600
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260102T192036\window3\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20844-502887.json' -FeatureFlags @() 
+Process ID: 7016
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Attempting to load configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'maguatemikes@gmail.com'
+Set DOMAIN_NAME to 'bandananearme.com'
+Set DNS_METHOD to 'manual'
+INFO: Validating AWS configuration...
+PS>TerminatingError(aws.exe): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: System.Management.Automation.RemoteException"
+>> TerminatingError(aws.exe): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: System.Management.Automation.RemoteException"
+ERROR: An error occurred during deployment: System.Management.Automation.RemoteException
+**********************
+Windows PowerShell transcript end
+End time: 20260102215601
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260102215713
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260102T192036\window3\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20844-502887.json' -FeatureFlags @() 
+Process ID: 7016
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Attempting to load configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'bandananearme.com'
+Set DNS_METHOD to 'manual'
+INFO: Validating AWS configuration...
+SUCCESS: AWS configuration is valid.
+Set S3_BUCKET to 'bandananearme.com'
+Validating bucket name: 'bandananearme.com'
+**********************
+Windows PowerShell transcript end
+End time: 20260102215719
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260102220802
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260102T192036\window3\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20844-502887.json' -FeatureFlags @() 
+Process ID: 7016
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Attempting to load configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'bandananearme.com'
+Set DNS_METHOD to 'manual'
+INFO: Validating AWS configuration...
+SUCCESS: AWS configuration is valid.
+Set S3_BUCKET to 'bandananearme.com'
+Validating bucket name: 'bandananearme.com'
+INFO: Syncing build to S3 bucket...
+The user-provided path ../build/ does not exist.
+SUCCESS: S3 sync complete.
+INFO: To point your domain to S3 via Cloudflare, add these DNS records:
+
+Root domain (bandananearme.com):
+  Type: CNAME
+  Name: @
+  Value: bandananearme.com.s3-website-us-east-1.amazonaws.com
+  Proxy status: DNS only
+
+WWW subdomain (www.bandananearme.com):
+  Type: CNAME
+  Name: www
+  Value: bandananearme.com.s3-website-us-east-1.amazonaws.com
+  Proxy status: DNS only
+
+INFO: Cloudflare will handle SSL automatically.
+**********************
+Windows PowerShell transcript end
+End time: 20260102220810
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260102221406
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260102T192036\window3\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20844-502887.json' -FeatureFlags @() 
+Process ID: 7016
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Attempting to load configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'bandananearme.com'
+Set DNS_METHOD to 'manual'
+INFO: Validating AWS configuration...
+SUCCESS: AWS configuration is valid.
+Set S3_BUCKET to 'bandananearme.com'
+Validating bucket name: 'bandananearme.com'
+INFO: Creating S3 bucket: bandananearme.com
+make_bucket: bandananearme.com
+SUCCESS: S3 bucket created successfully.
+INFO: Enabling static website hosting on bucket...
+
+SUCCESS: Static website hosting enabled.
+SUCCESS: Deployment completed successfully!
+INFO: Now create these DNS records in Cloudflare (DNS only):
+Root domain: CNAME, Name: @, Value: bandananearme.com.s3-website-us-east-1.amazonaws.com
+WWW subdomain: CNAME, Name: www, Value: bandananearme.com.s3-website-us-east-1.amazonaws.com
+**********************
+Windows PowerShell transcript end
+End time: 20260102221416
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260102222348
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260102T192036\window3\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20844-502887.json' -FeatureFlags @() 
+Process ID: 7016
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Attempting to load configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'bandananearme.com'
+Set DNS_METHOD to 'manual'
+INFO: Validating AWS configuration...
+SUCCESS: AWS configuration is valid.
+Set S3_BUCKET to 'bandananearme.com'
+Validating bucket name: 'bandananearme.com'
+INFO: Creating S3 bucket: bandananearme.com
+make_bucket: bandananearme.com
+SUCCESS: S3 bucket created successfully.
+INFO: Enabling static website hosting on bucket...
+
+SUCCESS: Static website hosting enabled.
+SUCCESS: Deployment completed successfully!
+INFO: Now create these DNS records in Cloudflare (DNS only):
+Root domain: CNAME, Name: @, Value: bandananearme.com.s3-website-us-east-1.amazonaws.com
+WWW subdomain: CNAME, Name: www, Value: bandananearme.com.s3-website-us-east-1.amazonaws.com
+**********************
+Windows PowerShell transcript end
+End time: 20260102222359
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260102222624
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260102T192036\window3\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20844-502887.json' -FeatureFlags @() 
+Process ID: 7016
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'bandananearme.com'
+Set DNS_METHOD to 'manual'
+INFO: Building React app...
+✓ 1616 modules transformed.
+dist/index.html                   0.45 kB │ gzip:  0.29 kB
+dist/assets/index-CE3d6pil.css   98.83 kB │ gzip: 15.48 kB
+dist/assets/index-CDcg4-3h.js   205.92 kB │ gzip: 63.95 kB
+✓ built in 2.24s
+SUCCESS: React app build completed.
+INFO: Uploading files to S3 bucket: bandananearme.com
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+**********************
+Windows PowerShell transcript end
+End time: 20260102222628
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260102223015
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260102T192036\window3\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20844-502887.json' -FeatureFlags @() 
+Process ID: 7016
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'bandananearme.com'
+Set DNS_METHOD to 'manual'
+INFO: Building React app...
+
+SUCCESS: React app build completed.
+INFO: Uploading files to S3 bucket: bandananearme.com
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+**********************
+Windows PowerShell transcript end
+End time: 20260102223019
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260102223741
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260102T192036\window3\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-20844-502887.json' -FeatureFlags @() 
+Process ID: 7016
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cAdmin\x5cDownloads\x5cModern Minimalist Website Design\x5cdeploymentPS C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment> ]633;B
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ListImported"; value="True"
+>> ParameterBinding(Get-Command): name="CommandType"; value="Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Microsoft.PowerShell.Utility
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Microsoft.PowerShell.Utility
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+>> TerminatingError(): "The pipeline has been stopped."
+>> CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ListImported"; value="True"
+>> ParameterBinding(Get-Command): name="CommandType"; value="Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Microsoft.PowerShell.Utility
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Microsoft.PowerShell.Utility
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            3.1.0.0    Microsoft.PowerShell.Management
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsnp -> Get-PSSnapin
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           gwmi -> Get-WmiObject
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           ipsn -> Import-PSSession
+Alias           irm -> Invoke-RestMethod
+Alias           ise -> powershell_ise.exe
+Alias           iwmi -> Invoke-WmiMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           lp -> Out-Printer
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           npssc -> New-PSSessionConfigurationFile
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           psedit -> Open-EditorFile                          0.2.0      PowerShellEditorServices.Commands
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rsnp -> Remove-PSSnapin
+Alias           rujb -> Resume-Job
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           rwmi -> Remove-WmiObject
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           sbp -> Set-PSBreakpoint
+Alias           sc -> Set-Content
+Alias           scb -> Set-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           select -> Select-Object
+Alias           set -> Set-Variable
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           stz -> Set-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           sujb -> Suspend-Job
+Alias           sv -> Set-Variable
+Alias           swmi -> Set-WmiInstance
+Alias           tee -> Tee-Object
+Alias           trcm -> Trace-Command
+Alias           type -> Get-Content
+Alias           wget -> Invoke-WebRequest
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ListImported"; value="True"
+>> ParameterBinding(Get-Command): name="CommandType"; value="Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Microsoft.PowerShell.Utility
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Microsoft.PowerShell.Utility
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            3.1.0.0    Microsoft.PowerShell.Management
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsnp -> Get-PSSnapin
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           gwmi -> Get-WmiObject
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           ipsn -> Import-PSSession
+Alias           irm -> Invoke-RestMethod
+Alias           ise -> powershell_ise.exe
+Alias           iwmi -> Invoke-WmiMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           lp -> Out-Printer
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           npssc -> New-PSSessionConfigurationFile
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           psedit -> Open-EditorFile                          0.2.0      PowerShellEditorServices.Commands
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rsnp -> Remove-PSSnapin
+Alias           rujb -> Resume-Job
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           rwmi -> Remove-WmiObject
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           sbp -> Set-PSBreakpoint
+Alias           sc -> Set-Content
+Alias           scb -> Set-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           select -> Select-Object
+Alias           set -> Set-Variable
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           stz -> Set-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           sujb -> Suspend-Job
+Alias           sv -> Set-Variable
+Alias           swmi -> Set-WmiInstance
+Alias           tee -> Tee-Object
+Alias           trcm -> Trace-Command
+Alias           type -> Get-Content
+Alias           wget -> Invoke-WebRequest
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>./deploy.ps1
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'bandananearme.com'
+Set DNS_METHOD to 'manual'
+INFO: Building React app...
+dist/assets/index-CE3d6pil.css   98.83 kB │ gzip: 15.48 kB
+dist/assets/index-CDcg4-3h.js   205.92 kB │ gzip: 63.95 kB
+✓ built in 1.97s
+SUCCESS: React app build completed.
+INFO: Uploading files to S3 bucket: bandananearme.com
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+Transcript stopped, output file is C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy.log
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cAdmin\x5cDownloads\x5cModern Minimalist Website Design\x5cdeploymentPS C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment> ]633;B
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ListImported"; value="True"
+>> ParameterBinding(Get-Command): name="CommandType"; value="Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Microsoft.PowerShell.Utility
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Microsoft.PowerShell.Utility
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            3.1.0.0    Microsoft.PowerShell.Management
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsnp -> Get-PSSnapin
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           gwmi -> Get-WmiObject
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           ipsn -> Import-PSSession
+Alias           irm -> Invoke-RestMethod
+Alias           ise -> powershell_ise.exe
+Alias           iwmi -> Invoke-WmiMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           lp -> Out-Printer
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           npssc -> New-PSSessionConfigurationFile
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           psedit -> Open-EditorFile                          0.2.0      PowerShellEditorServices.Commands
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rsnp -> Remove-PSSnapin
+Alias           rujb -> Resume-Job
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           rwmi -> Remove-WmiObject
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           sbp -> Set-PSBreakpoint
+Alias           sc -> Set-Content
+Alias           scb -> Set-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           select -> Select-Object
+Alias           set -> Set-Variable
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           stz -> Set-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           sujb -> Suspend-Job
+Alias           sv -> Set-Variable
+Alias           swmi -> Set-WmiInstance
+Alias           tee -> Tee-Object
+Alias           trcm -> Trace-Command
+Alias           type -> Get-Content
+Alias           wget -> Invoke-WebRequest
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ListImported"; value="True"
+>> ParameterBinding(Get-Command): name="CommandType"; value="Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Microsoft.PowerShell.Utility
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Microsoft.PowerShell.Utility
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            3.1.0.0    Microsoft.PowerShell.Management
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsnp -> Get-PSSnapin
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           gwmi -> Get-WmiObject
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           ipsn -> Import-PSSession
+Alias           irm -> Invoke-RestMethod
+Alias           ise -> powershell_ise.exe
+Alias           iwmi -> Invoke-WmiMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           lp -> Out-Printer
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           npssc -> New-PSSessionConfigurationFile
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           psedit -> Open-EditorFile                          0.2.0      PowerShellEditorServices.Commands
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rsnp -> Remove-PSSnapin
+Alias           rujb -> Resume-Job
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           rwmi -> Remove-WmiObject
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           sbp -> Set-PSBreakpoint
+Alias           sc -> Set-Content
+Alias           scb -> Set-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           select -> Select-Object
+Alias           set -> Set-Variable
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           stz -> Set-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           sujb -> Suspend-Job
+Alias           sv -> Set-Variable
+Alias           swmi -> Set-WmiInstance
+Alias           tee -> Tee-Object
+Alias           trcm -> Trace-Command
+Alias           type -> Get-Content
+Alias           wget -> Invoke-WebRequest
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ListImported"; value="True"
+>> ParameterBinding(Get-Command): name="CommandType"; value="Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Microsoft.PowerShell.Utility
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Microsoft.PowerShell.Utility
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            3.1.0.0    Microsoft.PowerShell.Management
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsnp -> Get-PSSnapin
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           gwmi -> Get-WmiObject
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           ipsn -> Import-PSSession
+Alias           irm -> Invoke-RestMethod
+Alias           ise -> powershell_ise.exe
+Alias           iwmi -> Invoke-WmiMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           lp -> Out-Printer
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           npssc -> New-PSSessionConfigurationFile
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           psedit -> Open-EditorFile                          0.2.0      PowerShellEditorServices.Commands
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rsnp -> Remove-PSSnapin
+Alias           rujb -> Resume-Job
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           rwmi -> Remove-WmiObject
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           sbp -> Set-PSBreakpoint
+Alias           sc -> Set-Content
+Alias           scb -> Set-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           select -> Select-Object
+Alias           set -> Set-Variable
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           stz -> Set-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           sujb -> Suspend-Job
+Alias           sv -> Set-Variable
+Alias           swmi -> Set-WmiInstance
+Alias           tee -> Tee-Object
+Alias           trcm -> Trace-Command
+Alias           type -> Get-Content
+Alias           wget -> Invoke-WebRequest
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ListImported"; value="True"
+>> ParameterBinding(Get-Command): name="CommandType"; value="Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Microsoft.PowerShell.Utility
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Microsoft.PowerShell.Utility
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            3.1.0.0    Microsoft.PowerShell.Management
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsnp -> Get-PSSnapin
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           gwmi -> Get-WmiObject
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           ipsn -> Import-PSSession
+Alias           irm -> Invoke-RestMethod
+Alias           ise -> powershell_ise.exe
+Alias           iwmi -> Invoke-WmiMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           lp -> Out-Printer
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           npssc -> New-PSSessionConfigurationFile
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           psedit -> Open-EditorFile                          0.2.0      PowerShellEditorServices.Commands
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rsnp -> Remove-PSSnapin
+Alias           rujb -> Resume-Job
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           rwmi -> Remove-WmiObject
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           sbp -> Set-PSBreakpoint
+Alias           sc -> Set-Content
+Alias           scb -> Set-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           select -> Select-Object
+Alias           set -> Set-Variable
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           stz -> Set-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           sujb -> Suspend-Job
+Alias           sv -> Set-Variable
+Alias           swmi -> Set-WmiInstance
+Alias           tee -> Tee-Object
+Alias           trcm -> Trace-Command
+Alias           type -> Get-Content
+Alias           wget -> Invoke-WebRequest
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+
+]633;A]633;P;Cwd=C:\x5cUsers\x5cAdmin\x5cDownloads\x5cModern Minimalist Website Design\x5cdeploymentPS C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>clear
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cAdmin\x5cDownloads\x5cModern Minimalist Website Design\x5cdeploymentPS C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>./deploy.ps1
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'bandananearme.com'
+Set DNS_METHOD to 'manual'
+INFO: S3 bucket exists: bandananearme.com
+INFO: Building Vite app...
+dist/index.html                   0.45 kB │ gzip:  0.29 kB
+dist/assets/index-CE3d6pil.css   98.83 kB │ gzip: 15.48 kB
+dist/assets/index-CDcg4-3h.js   205.92 kB │ gzip: 63.95 kB
+✓ built in 1.98s
+SUCCESS: Vite app build completed.
+INFO: Uploading files to S3 bucket: bandananearme.com
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+Transcript stopped, output file is C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy.log
+]633;D;0]633;A]633;P;Cwd=C:\x5cUsers\x5cAdmin\x5cDownloads\x5cModern Minimalist Website Design\x5cdeploymentPS C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment> ]633;B
+**********************
+Windows PowerShell transcript start
+Start time: 20260111112033
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'bandanasnearme.com'
+Set DNS_METHOD to 'manual'
+INFO: S3 bucket exists: bandanasnearme.com
+INFO: Building Vite app...
+
+SUCCESS: Vite app build completed.
+INFO: Uploading files to S3 bucket: bandanasnearme.com
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+**********************
+Windows PowerShell transcript end
+End time: 20260111112042
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260111112659
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'testing.com'
+Set DNS_METHOD to 'manual'
+INFO: S3 bucket exists: testing.com
+INFO: Building Vite app...
+
+SUCCESS: Vite app build completed.
+INFO: Uploading files to S3 bucket: testing.com
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+**********************
+Windows PowerShell transcript end
+End time: 20260111112802
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260111114141
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'testing.com'
+Set DNS_METHOD to 'manual'
+INFO: S3 bucket exists: testing.com
+INFO: Building Vite app...
+
+SUCCESS: Vite app build completed.
+INFO: Uploading files to S3 bucket: testing.com
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+**********************
+Windows PowerShell transcript end
+End time: 20260111114156
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260111114535
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'testing.com'
+Set DNS_METHOD to 'manual'
+INFO: S3 bucket exists: testing.com
+INFO: Building Vite app...
+dist/assets/index-CDcg4-3h.js   205.92 kB │ gzip: 63.95 kB
+✓ built in 1.93s
+SUCCESS: Vite app build completed.
+INFO: Uploading files to S3 bucket: testing.com
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+**********************
+Windows PowerShell transcript end
+End time: 20260111114542
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260111114839
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'michael-testing-site'
+Set DNS_METHOD to 'manual'
+INFO: S3 bucket exists: michael-testing-site
+INFO: Building Vite app...
+
+SUCCESS: Vite app build completed.
+INFO: Uploading files to S3 bucket: michael-testing-site
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+**********************
+Windows PowerShell transcript end
+End time: 20260111114846
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260111114935
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'michael-testing-site'
+Set DNS_METHOD to 'manual'
+INFO: S3 bucket exists: michael-testing-site
+INFO: Building Vite app...
+dist/index.html                   0.45 kB │ gzip:  0.29 kB
+dist/assets/index-CE3d6pil.css   98.83 kB │ gzip: 15.48 kB
+dist/assets/index-CDcg4-3h.js   205.92 kB │ gzip: 63.95 kB
+✓ built in 1.91s
+SUCCESS: Vite app build completed.
+INFO: Uploading files to S3 bucket: michael-testing-site
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+**********************
+Windows PowerShell transcript end
+End time: 20260111114948
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260111115514
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'myawsome-testing-site.com'
+Set DNS_METHOD to 'manual'
+PS>TerminatingError(aws.exe): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: System.Management.Automation.RemoteException"
+INFO: Creating S3 bucket: myawsome-testing-site.com in region us-east-1
+
+SUCCESS: S3 bucket created: myawsome-testing-site.com
+INFO: Configuring S3 bucket for static website hosting...
+INFO: Enabling static website hosting on bucket: myawsome-testing-site.com
+INFO: Disabling public access block for bucket: myawsome-testing-site.com
+INFO: Applying public read policy to bucket: myawsome-testing-site.com
+SUCCESS: S3 bucket configured for static website hosting
+INFO: Website URL: http://myawsome-testing-site.com.s3-website-us-east-1.amazonaws.com
+INFO: Building Vite app...
+
+SUCCESS: Vite app build completed.
+INFO: Uploading files to S3 bucket: myawsome-testing-site.com
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: ===================================================
+SUCCESS: Deployment completed successfully!
+SUCCESS: ===================================================
+INFO: Bucket Name: myawsome-testing-site.com
+INFO: S3 Website URL: http://myawsome-testing-site.com.s3-website-us-east-1.amazonaws.com
+INFO:
+INFO: Next Steps for Cloudflare:
+INFO: 1. Log in to your Cloudflare dashboard
+INFO: 2. Select your domain: myawsome-testing-site.com
+INFO: 3. Go to DNS settings
+INFO: 4. Add a CNAME record:
+INFO:    - Type: CNAME
+INFO:    - Name: @ (or your subdomain)
+INFO:    - Target: myawsome-testing-site.com.s3-website-us-east-1.amazonaws.com
+INFO:    - Proxy status: Proxied (orange cloud)
+INFO: 5. Your site will be live at: https://myawsome-testing-site.com
+SUCCESS: ===================================================
+**********************
+Windows PowerShell transcript end
+End time: 20260111115536
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260111120113
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'anothertest.com'
+Set DNS_METHOD to 'manual'
+INFO: S3 bucket exists: anothertest.com
+INFO: Building Vite app...
+
+SUCCESS: Vite app build completed.
+INFO: Uploading files to S3 bucket: anothertest.com
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+**********************
+Windows PowerShell transcript end
+End time: 20260111120122
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260111120641
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'myawsomesite.com'
+Set DNS_METHOD to 'manual'
+INFO: S3 bucket exists: myawsomesite.com
+INFO: Building Vite app...
+dist/assets/index-CDcg4-3h.js   205.92 kB │ gzip: 63.95 kB
+✓ built in 1.94s
+SUCCESS: Vite app build completed.
+INFO: Uploading files to S3 bucket: myawsomesite.com
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+**********************
+Windows PowerShell transcript end
+End time: 20260111120648
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260111120840
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'myawsomesite.com'
+Set DNS_METHOD to 'manual'
+INFO: S3 bucket exists: myawsomesite.com
+INFO: Configuring static website hosting...
+
+INFO: Configuring public access...
+
+INFO: Applying public read policy...
+
+SUCCESS: S3 bucket configured successfully
+INFO: Building Vite app...
+
+SUCCESS: Vite app build completed.
+INFO: Uploading files to S3 bucket: myawsomesite.com
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+**********************
+Windows PowerShell transcript end
+End time: 20260111120852
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260111121112
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'myawsomesite.com'
+Set DNS_METHOD to 'manual'
+INFO: Checking if S3 bucket exists: myawsomesite.com
+PS>TerminatingError(aws.exe): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: System.Management.Automation.RemoteException"
+ERROR: Deployment error: System.Management.Automation.RemoteException
+**********************
+Windows PowerShell transcript end
+End time: 20260111121115
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260111121143
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'myawsomesite.com'
+Set DNS_METHOD to 'manual'
+INFO: S3 bucket exists: myawsomesite.com
+INFO: Building Vite app...
+dist/assets/index-CDcg4-3h.js   205.92 kB │ gzip: 63.95 kB
+✓ built in 1.95s
+SUCCESS: Vite app build completed.
+INFO: Uploading files to S3 bucket: myawsomesite.com
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+**********************
+Windows PowerShell transcript end
+End time: 20260111121149
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260111121653
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'myawsomesite.com'
+Set DNS_METHOD to 'manual'
+INFO: Checking if S3 bucket exists: myawsomesite.com
+PS>TerminatingError(aws.exe): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: System.Management.Automation.RemoteException"
+ERROR: Deployment error: System.Management.Automation.RemoteException
+**********************
+Windows PowerShell transcript end
+End time: 20260111121655
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260111121820
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'myawsomesite.com'
+Set DNS_METHOD to 'manual'
+INFO: Checking if S3 bucket exists: myawsomesite.com
+INFO: S3 bucket does not exist. Creating: myawsomesite.com
+
+SUCCESS: S3 bucket created successfully: myawsomesite.com
+INFO: Configuring static website hosting...
+
+INFO: Configuring public access...
+
+INFO: Applying public read policy...
+
+ERROR: Failed to apply bucket policy
+**********************
+Windows PowerShell transcript end
+End time: 20260111121830
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260111122030
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'meryjoypsink.com'
+Set DNS_METHOD to 'manual'
+INFO: Checking if S3 bucket exists: meryjoypsink.com
+INFO: S3 bucket does not exist. Creating: meryjoypsink.com
+
+SUCCESS: S3 bucket created successfully: meryjoypsink.com
+INFO: Configuring static website hosting...
+
+INFO: Configuring public access...
+
+INFO: Applying public read policy...
+
+ERROR: Failed to apply bucket policy
+**********************
+Windows PowerShell transcript end
+End time: 20260111122040
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260111122145
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'meryjoypsink.com'
+Set DNS_METHOD to 'manual'
+INFO: Checking if S3 bucket exists: meryjoypsink.com
+INFO: S3 bucket already exists: meryjoypsink.com
+INFO: Configuring static website hosting...
+
+INFO: Configuring public access...
+
+INFO: Applying public read policy...
+
+SUCCESS: S3 bucket configured successfully
+INFO: Building Vite app...
+
+SUCCESS: Vite app build completed.
+INFO: Uploading files to S3 bucket: meryjoypsink.com
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+**********************
+Windows PowerShell transcript end
+End time: 20260111122205
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260111122235
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'michaelsite.com'
+Set DNS_METHOD to 'manual'
+INFO: Checking if S3 bucket exists: michaelsite.com
+INFO: S3 bucket does not exist. Creating: michaelsite.com
+    "Location": "/michaelsite.com",
+    "BucketArn": "arn:aws:s3:::michaelsite.com"
+}
+SUCCESS: S3 bucket created successfully: michaelsite.com
+INFO: Configuring static website hosting...
+
+INFO: Configuring public access...
+
+INFO: Applying public read policy...
+
+SUCCESS: S3 bucket configured successfully
+INFO: Building Vite app...
+
+SUCCESS: Vite app build completed.
+INFO: Uploading files to S3 bucket: michaelsite.com
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+**********************
+Windows PowerShell transcript end
+End time: 20260111122252
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260111203041
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260111T111322\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-16900-193360.json' -FeatureFlags @() 
+Process ID: 11980
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\Downloads\Modern Minimalist Website Design\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'newsiteuploaded.com'
+Set DNS_METHOD to 'manual'
+INFO: Checking if S3 bucket exists: newsiteuploaded.com
+INFO: S3 bucket does not exist. Creating: newsiteuploaded.com
+
+SUCCESS: S3 bucket created successfully: newsiteuploaded.com
+INFO: Configuring static website hosting...
+
+INFO: Configuring public access...
+
+INFO: Applying public read policy...
+
+SUCCESS: S3 bucket configured successfully
+INFO: Building Vite app...
+
+SUCCESS: Vite app build completed.
+INFO: Uploading files to S3 bucket: newsiteuploaded.com
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+**********************
+Windows PowerShell transcript end
+End time: 20260111203105
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20260112190956
+Username: DESKTOP-V78TABK\Admin
+RunAs User: DESKTOP-V78TABK\Admin
+Configuration Name: 
+Machine: DESKTOP-V78TABK (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\Admin\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\Admin\AppData\Roaming\Code\logs\20260112T182244\window2\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\Admin\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-13908-857681.json' -FeatureFlags @() 
+Process ID: 15144
+PSVersion: 5.1.26100.7462
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7462
+BuildVersion: 10.0.26100.7462
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is deploy.log
+INFO: Starting deployment process...
+INFO: Loading configuration from: C:\Users\Admin\template3-master\deployment\deploy-config.env
+Set AWS_REGION to 'us-east-1'
+Set AWS_CLI_PROFILE to 'default'
+Set DOMAIN_NAME to 'mikesthegreat.com'
+Set DNS_METHOD to 'manual'
+INFO: Checking if S3 bucket exists: mikesthegreat.com
+INFO: S3 bucket does not exist. Creating: mikesthegreat.com
+
+SUCCESS: S3 bucket created successfully: mikesthegreat.com
+INFO: Configuring static website hosting...
+
+INFO: Configuring public access...
+
+INFO: Applying public read policy...
+
+SUCCESS: S3 bucket configured successfully
+INFO: Building Vite app...
+
+SUCCESS: Vite app build completed.
+INFO: Uploading files to S3 bucket: mikesthegreat.com
+
+SUCCESS: Deployment to S3 completed.
+SUCCESS: Deployment completed! Your site should now be live via Cloudflare DNS.
+**********************
+Windows PowerShell transcript end
+End time: 20260112191014
+**********************
