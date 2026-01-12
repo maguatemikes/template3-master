@@ -23,37 +23,26 @@ jobs:
       - name: 📥 Install Dependencies
         run: npm ci
 
-      - name: 🔧 Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_REGION }}
-
-      - name: ✅ Verify AWS Configuration
-        run: |
-          Write-Host "✅ AWS CLI Version:" -ForegroundColor Green
-          aws --version
-          Write-Host "`n✅ AWS Identity:" -ForegroundColor Green
-          aws sts get-caller-identity
-        shell: pwsh
+      - name: 🏗️ Build Project
+        run: npm run build
 
       - name: 📄 Display Deploy Config
         run: |
           Write-Host "📄 Deploy Configuration:" -ForegroundColor Cyan
-          Get-Content deploy-config.env
+          Get-Content deployment/deploy-config.env
         shell: pwsh
 
       - name: 🚀 Deploy to S3
         run: |
           Write-Host "🚀 Starting S3 Deployment..." -ForegroundColor Yellow
+          cd deployment
           .\deploy.ps1
         shell: pwsh
-        env:
-          AWS_REGION: ${{ secrets.AWS_REGION }}
 
       - name: 🎉 Deployment Complete
         run: |
           Write-Host "🎉 Deployment completed successfully!" -ForegroundColor Green
-          Write-Host "Check your S3 bucket for the deployed site." -ForegroundColor Cyan
+          $domainName = (Get-Content deployment/deploy-config.env | Select-String -Pattern "DOMAIN_NAME=(.+)").Matches.Groups[1].Value
+          $s3Url = "http://$domainName.s3-website-us-east-1.amazonaws.com"
+          Write-Host "🌐 Your site is live at: $s3Url" -ForegroundColor Cyan
         shell: pwsh
