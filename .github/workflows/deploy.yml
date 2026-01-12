@@ -36,12 +36,18 @@ jobs:
         run: |
           Write-Host "🚀 Starting S3 Deployment..." -ForegroundColor Yellow
           cd deployment
+          
+          # Set AWS credentials directly
+          $env:AWS_ACCESS_KEY_ID = "AKIA2Y6EHTNM7S27NEHZ"
+          $env:AWS_SECRET_ACCESS_KEY = "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"
+          $env:AWS_REGION = "us-east-1"
+          $env:AWS_DEFAULT_REGION = "us-east-1"
+          
+          Write-Host "✅ AWS credentials configured" -ForegroundColor Green
+          
+          # Run deployment
           .\deploy.ps1
         shell: pwsh
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_DEFAULT_REGION: ${{ secrets.AWS_REGION }}
 
       - name: 🎉 Deployment Complete
         run: |
