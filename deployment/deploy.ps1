@@ -148,6 +148,35 @@ try {
     if ($script:isCI) {
         Write-Message "info" "Running in CI/CD environment - using environment variables for AWS credentials"
         $script:profileArgs = @()
+        
+        # Explicitly validate and set AWS environment variables for child processes
+        if ($env:AWS_ACCESS_KEY_ID) {
+            Write-Message "info" "AWS_ACCESS_KEY_ID is set (length: $($env:AWS_ACCESS_KEY_ID.Length))"
+        } else {
+            Write-Message "error" "AWS_ACCESS_KEY_ID environment variable is not set!"
+            exit 1
+        }
+        
+        if ($env:AWS_SECRET_ACCESS_KEY) {
+            Write-Message "info" "AWS_SECRET_ACCESS_KEY is set (length: $($env:AWS_SECRET_ACCESS_KEY.Length))"
+        } else {
+            Write-Message "error" "AWS_SECRET_ACCESS_KEY environment variable is not set!"
+            exit 1
+        }
+        
+        # Ensure AWS_REGION is set (check both AWS_REGION and AWS_DEFAULT_REGION)
+        if (-not $env:AWS_REGION -and $env:AWS_DEFAULT_REGION) {
+            $env:AWS_REGION = $env:AWS_DEFAULT_REGION
+            Write-Message "info" "Set AWS_REGION from AWS_DEFAULT_REGION: $env:AWS_REGION"
+        }
+        
+        if (-not $env:AWS_REGION) {
+            Write-Message "error" "AWS_REGION environment variable is not set!"
+            exit 1
+        }
+        
+        Write-Message "success" "AWS credentials validated successfully"
+        Write-Message "info" "Using AWS Region: $env:AWS_REGION"
     } else {
         Write-Message "info" "Running locally - using AWS profile: $AWS_CLI_PROFILE"
         $script:profileArgs = @("--profile", $AWS_CLI_PROFILE)
