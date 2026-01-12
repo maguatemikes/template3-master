@@ -148,18 +148,6 @@ try {
     if ($script:isCI) {
         Write-Message "info" "Running in CI/CD environment - using environment variables for AWS credentials"
         $script:profileArgs = @()
-        
-        # Validate AWS credentials are set in environment
-        if (-not $env:AWS_ACCESS_KEY_ID) {
-            Write-Message "error" "AWS_ACCESS_KEY_ID not found in environment variables!"
-            exit 1
-        }
-        if (-not $env:AWS_SECRET_ACCESS_KEY) {
-            Write-Message "error" "AWS_SECRET_ACCESS_KEY not found in environment variables!"
-            exit 1
-        }
-        Write-Message "success" "AWS credentials found in environment (Key: $($env:AWS_ACCESS_KEY_ID.Substring(0,8))...)"
-        Write-Message "info" "Using AWS Region: $env:AWS_REGION"
     } else {
         Write-Message "info" "Running locally - using AWS profile: $AWS_CLI_PROFILE"
         $script:profileArgs = @("--profile", $AWS_CLI_PROFILE)
