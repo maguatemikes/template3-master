@@ -41,7 +41,7 @@ function Rollback {
     Write-Message "warning" "Deployment failed. Rolling back changes..."
     if ($S3_BUCKET_CREATED -and $S3_BUCKET) {
         Write-Message "info" "Deleting newly created S3 bucket: $S3_BUCKET"
-        aws s3 rb "s3://$S3_BUCKET" --force --profile $AWS_CLI_PROFILE
+        aws s3 rb "s3://$S3_BUCKET" --force @script:profileArgs
     }
     Write-Message "info" "Rollback completed."
 }
@@ -68,7 +68,13 @@ function Load-Configuration {
 # Validate environment
 # ---------------------------
 function Validate-EnvVariables {
-    $required_vars = @("AWS_REGION", "AWS_CLI_PROFILE", "DOMAIN_NAME")
+    $required_vars = @("AWS_REGION", "DOMAIN_NAME")
+    
+    # Only require AWS_CLI_PROFILE if not in CI/CD
+    if (-not $script:isCI) {
+        $required_vars += "AWS_CLI_PROFILE"
+    }
+    
     foreach ($var in $required_vars) {
         $value = Get-Variable -Name $var -ValueOnly -ErrorAction SilentlyContinue
         if ([string]::IsNullOrEmpty($value)) {
@@ -119,7 +125,7 @@ function Deploy-To-S3 {
     Write-Message "info" "Uploading files to S3 bucket: $BucketName"
     aws s3 sync "$BuildFolder" "s3://$BucketName" `
         --delete `
-        --profile $AWS_CLI_PROFILE
+        @script:profileArgs
     
     if ($LASTEXITCODE -ne 0) {
         Write-Message "error" "Failed to upload files to S3"
@@ -136,6 +142,17 @@ try {
     Write-Message "info" "Starting deployment process..."
     Load-Configuration
 
+    # Detect if running in CI/CD environment (GitHub Actions)
+    $script:isCI = ($env:CI -eq "true") -or ($env:GITHUB_ACTIONS -eq "true")
+    
+    if ($script:isCI) {
+        Write-Message "info" "Running in CI/CD environment - using environment variables for AWS credentials"
+        $script:profileArgs = @()
+    } else {
+        Write-Message "info" "Running locally - using AWS profile: $AWS_CLI_PROFILE"
+        $script:profileArgs = @("--profile", $AWS_CLI_PROFILE)
+    }
+
     if (-not (Get-Command "aws" -ErrorAction SilentlyContinue)) {
         Write-Message "error" "AWS CLI not installed."
         exit 1
@@ -151,7 +168,7 @@ try {
     $prevErrorPref = $ErrorActionPreference
     $ErrorActionPreference = 'Continue'
     
-    $null = aws s3api head-bucket --bucket $S3_BUCKET --profile $AWS_CLI_PROFILE 2>&1
+    $null = aws s3api head-bucket --bucket $S3_BUCKET @script:profileArgs 2>&1
     $bucketExists = ($LASTEXITCODE -eq 0)
     
     $ErrorActionPreference = $prevErrorPref
@@ -166,14 +183,14 @@ try {
             # us-east-1 doesn't need LocationConstraint
             aws s3api create-bucket `
                 --bucket $S3_BUCKET `
-                --profile $AWS_CLI_PROFILE
+                @script:profileArgs
         } else {
             # Other regions require LocationConstraint
             aws s3api create-bucket `
                 --bucket $S3_BUCKET `
                 --region $AWS_REGION `
                 --create-bucket-configuration LocationConstraint=$AWS_REGION `
-                --profile $AWS_CLI_PROFILE
+                @script:profileArgs
         }
         
         if ($LASTEXITCODE -eq 0) {
@@ -190,7 +207,7 @@ try {
     aws s3 website "s3://$S3_BUCKET" `
         --index-document index.html `
         --error-document index.html `
-        --profile $AWS_CLI_PROFILE
+        @script:profileArgs
     
     if ($LASTEXITCODE -ne 0) {
         Write-Message "error" "Failed to configure static website hosting"
@@ -202,7 +219,7 @@ try {
     aws s3api put-public-access-block `
         --bucket $S3_BUCKET `
         --public-access-block-configuration "BlockPublicAcls=false,IgnorePublicAcls=false,BlockPublicPolicy=false,RestrictPublicBuckets=false" `
-        --profile $AWS_CLI_PROFILE
+        @script:profileArgs
     
     if ($LASTEXITCODE -ne 0) {
         Write-Message "error" "Failed to configure public access"
@@ -232,7 +249,7 @@ try {
     aws s3api put-bucket-policy `
         --bucket $S3_BUCKET `
         --policy "file://$policyFile" `
-        --profile $AWS_CLI_PROFILE
+        @script:profileArgs
     
     if ($LASTEXITCODE -ne 0) {
         Write-Message "error" "Failed to apply bucket policy"
@@ -250,6 +267,10 @@ try {
     Deploy-To-S3 -BucketName $S3_BUCKET -BuildFolder "$PSScriptRoot\..\dist"
 
     Write-Message "success" "Deployment completed! Your site should now be live via Cloudflare DNS."
+    
+    # Output S3 website URL
+    $websiteUrl = "http://$S3_BUCKET.s3-website-$AWS_REGION.amazonaws.com"
+    Write-Message "success" "Website URL: $websiteUrl"
 
 } catch {
     Write-Message "error" "Deployment error: $_"
